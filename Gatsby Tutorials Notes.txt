@@ -1,0 +1,30 @@
+difference between gatsby develop npm run develop:
+
+With npm run develop you run the script called "develop" in your package.json.
+
+With gatsby develop you use the gatsby-cli to run the development server. However, with npx now more widely available, you don't need to install the cli.
+
+=======================================
+
+Used gatsby-browser.js to add global styles 
+will mostly add global styles with a shared layout component
+
+Data is is “everything that lives outside a React component”.
+
+If you’re building a small site, one efficient way to build it is to pull in unstructured data as outlined in this guide, using createPages AP
+
+GraphQL was invented at Facebook to help product engineers pull needed data into components.
+
+StaticQuery is a new API introduced in Gatsby v2 that allows non-page components (like your layout.js component), to retrieve data via GraphQL queries. Let’s use its newly introduced hook version — useStaticQuery.
+-keep in mind that only pages can make page queries. Non-page components, such as Layout, can use StaticQuery
+
+Source plugins fetch data from their source. E.g. the filesystem source plugin knows how to fetch data from the file system. The WordPress plugin knows how to fetch data from the WordPress API.
+
+source plugins bring data into Gatsby’s data system
+transformer plugins transform the raw content brought by source plugins.
+
+
+
+
+
+
